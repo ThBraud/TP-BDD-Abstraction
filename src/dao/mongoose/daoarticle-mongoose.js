@@ -18,6 +18,25 @@ class DAOArticleMongoose extends IDAOArticle {
     async selectAll() {
         return await Article.find();
     }
+
+    async selectByUid(uid) {
+        return await Article.findOne({uid: uid});
+    }
+
+    async deleteByUid(uid) {
+        return await Article.findOneAndDelete({uid: uid});
+    }
+    async updateArticle(uid, articleData) {
+        return await Article.findOneAndUpdate(
+            {uid: uid},
+            articleData,
+            {
+                new: true,
+                updated: true, //Créer si il n'existe pas
+                runValidators: true, //Sauvegarde
+            }
+        );
+    }
 }
 
 module.exports = DAOArticleMongoose;

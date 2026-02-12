@@ -13,12 +13,15 @@ if (process.env.BDD_MODE === "sequelize") {
 else if (process.env.BDD_MODE === "mongodb") {
     require("./dao/mongoose/connexion").connect_mongoose();
 }
+// Pour la lecture des JSON
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Injecter route externe
 // -- importer
-const gameRoutes = require('./routes/article-routes')
+const articlesRoutes = require('./routes/article-routes')
 // -- injecter dans le serveur
-app.use(gameRoutes);
+app.use(articlesRoutes);
 
 // Démarrer le serveur avec le port 3000
 app.listen(3000, () => {
