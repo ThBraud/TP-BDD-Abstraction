@@ -16,7 +16,7 @@ else if (process.env.BDD_MODE === "mongodb") {
 
 // Injecter route externe
 // -- importer
-const gameRoutes = require('./routes/game-routes')
+const gameRoutes = require('./routes/article-routes')
 // -- injecter dans le serveur
 app.use(gameRoutes);
 

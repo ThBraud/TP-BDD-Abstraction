@@ -1,7 +1,7 @@
-const Game = require("./game-model");
-const IDAOGame = require("../idaogame");
+const Game = require("./article-model");
+const IDAOGame = require("../idaoarticle");
 
-class DAOGameMongoose extends IDAOGame {
+class DaoarticleMongoose extends IDAOGame {
     /**
      * Override explicitement si la methode existe dans le parent
      */
@@ -20,4 +20,4 @@ class DAOGameMongoose extends IDAOGame {
     }
 }
 
-module.exports = DAOGameMongoose;
+module.exports = DaoarticleMongoose;

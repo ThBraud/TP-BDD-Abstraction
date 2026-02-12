@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const GameService = require('../services/game-service');
+const GameService = require('../services/article-service');
 
 router.get("/create-game", async (request, response) => {
 

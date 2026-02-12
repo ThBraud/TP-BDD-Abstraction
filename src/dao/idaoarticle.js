@@ -1,7 +1,7 @@
-class IDAOGame {
+class Idaoarticle {
     async insert(game) {}
 
     async selectAll(){}
 }
 
-module.exports = IDAOGame;
+module.exports = Idaoarticle;

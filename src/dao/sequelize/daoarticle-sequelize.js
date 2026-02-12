@@ -1,7 +1,7 @@
-const Game = require("./game-model");
-const IDAOGame = require("../idaogame");
+const Game = require("./article-model");
+const IDAOGame = require("../idaoarticle");
 
-class DAOGameSequelize extends IDAOGame {
+class DaoarticleSequelize extends IDAOGame {
     /**
      * Override explicitement si la methode existe dans le parent
      */
@@ -17,4 +17,4 @@ class DAOGameSequelize extends IDAOGame {
     }
 }
 
-module.exports = DAOGameSequelize;
+module.exports = DaoarticleSequelize;
