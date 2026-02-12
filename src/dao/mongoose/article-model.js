@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
 
-const Game = mongoose.model('Game', {uid: String, title: String}, "games");
+const Article = mongoose.model('Article', {uid: String, title: String}, "articles");
 
-module.exports = Game
+module.exports = Article;

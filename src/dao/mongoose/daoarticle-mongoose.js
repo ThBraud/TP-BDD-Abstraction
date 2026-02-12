@@ -1,23 +1,23 @@
-const Game = require("./article-model");
-const IDAOGame = require("../idaoarticle");
+const Article = require("./article-model");
+const IDAOArticle = require("../idaoarticle");
 
-class DaoarticleMongoose extends IDAOGame {
+class DAOArticleMongoose extends IDAOArticle {
     /**
      * Override explicitement si la methode existe dans le parent
      */
-    async insert(game) {
+    async insert(article) {
         // Intancier l'objet
-        const newGame = new Game(game);
+        const newArticle = new Article(article);
         // Save
-        return await newGame.save();
+        return await newArticle.save();
     }
 
     /**
      * Override explicitement si la methode existe dans le parent
      */
     async selectAll() {
-        return await Game.find();
+        return await Article.find();
     }
 }
 
-module.exports = DaoarticleMongoose;
+module.exports = DAOArticleMongoose;

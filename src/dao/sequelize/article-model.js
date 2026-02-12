@@ -1,7 +1,7 @@
 const { DataTypes } = require('sequelize')
 const sequelize = require('./database')
 
-const Game = sequelize.define('Game', {
+const Article = sequelize.define('Article', {
     uid: {
         type: DataTypes.STRING,
         primaryKey: true
@@ -12,4 +12,4 @@ const Game = sequelize.define('Game', {
     }
 })
 
-module.exports = Game
+module.exports = Article

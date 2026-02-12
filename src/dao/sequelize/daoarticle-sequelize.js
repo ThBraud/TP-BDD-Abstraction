@@ -1,20 +1,20 @@
-const Game = require("./article-model");
-const IDAOGame = require("../idaoarticle");
+const Article = require("./article-model");
+const IDAOArticle = require("../idaoarticle");
 
-class DaoarticleSequelize extends IDAOGame {
+class DAOArticleSequelize extends IDAOArticle {
     /**
      * Override explicitement si la methode existe dans le parent
      */
-    async insert(game) {
-        return await Game.create(game);
+    async insert(article) {
+        return await Article.create(article);
     }
 
     /**
      * Override explicitement si la methode existe dans le parent
      */
     async selectAll() {
-        return await Game.findAll();
+        return await Article.findAll();
     }
 }
 
-module.exports = DaoarticleSequelize;
+module.exports = DAOArticleSequelize;

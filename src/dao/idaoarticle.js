@@ -1,5 +1,5 @@
 class Idaoarticle {
-    async insert(game) {}
+    async insert(article) {}
 
     async selectAll(){}
 }
