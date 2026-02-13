@@ -1,0 +1,75 @@
+2026-02-12T12:25:32.213Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T12:26:11.735Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T12:29:47.811Z info: Code: 200 | Message: Tout les articles ont été récupérés
+2026-02-12T12:30:46.577Z info: Code: 200 | Message: Tout les articles ont été récupérés
+2026-02-12T12:40:21.108Z info: Code: 200 | Message: Article récupéré avec succès
+2026-02-12T12:40:57.174Z info: Code: 200 | Message: Article récupéré avec succès
+2026-02-12T12:46:34.017Z info: Code: 721 | Message: L'article n'existe pas
+2026-02-12T12:46:42.921Z info: Code: 721 | Message: L'article n'existe pas
+2026-02-12T12:47:10.733Z info: Code: 721 | Message: L'article n'existe pas
+2026-02-12T12:47:28.617Z info: Code: 404 | Message: Article non trouvé
+2026-02-12T12:47:29.708Z info: Code: 404 | Message: Article non trouvé
+2026-02-12T12:47:36.567Z info: Code: 404 | Message: Article non trouvé
+2026-02-12T12:47:37.362Z info: Code: 404 | Message: Article non trouvé
+2026-02-12T12:48:42.761Z info: Code: 404 | Message: Article non trouvé
+2026-02-12T12:48:47.203Z info: Code: 404 | Message: Article non trouvé
+2026-02-12T12:49:25.067Z info: Code: 200 | Message: Article récupéré avec succès
+2026-02-12T12:50:07.418Z info: Code: 200 | Message: L'article a été récupéré avec succès
+2026-02-12T12:50:20.461Z info: Code: 721 | Message: L'article n'existe pas
+2026-02-12T12:52:54.835Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T12:52:55.462Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T12:52:56.593Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T12:52:57.237Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T12:52:57.611Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T12:52:58.057Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T12:52:58.382Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T12:54:24.369Z info: Code: 200 | Message: Tout les articles ont été récupérés
+2026-02-12T12:55:27.872Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T12:55:38.338Z info: Code: 200 | Message: Tout les articles ont été récupérés
+2026-02-12T12:56:13.739Z info: Code: 200 | Message: Tout les articles ont été récupérés
+2026-02-12T12:56:18.741Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T13:00:09.764Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T13:00:14.694Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T13:00:16.262Z info: Code: 200 | Message: Article crée avec succès
+2026-02-12T13:00:21.105Z info: Code: 200 | Message: Tout les articles ont été récupérés
+2026-02-12T13:15:10.093Z info: Code: 201 | Message: Article créé avec succès
+2026-02-12T13:16:05.828Z info: Code: 201 | Message: Article créé avec succès
+2026-02-12T13:16:33.462Z info: Code: 201 | Message: Article créé avec succès
+2026-02-12T13:16:50.021Z info: Code: 400 | Message: Les champs title, author et desc sont requis
+2026-02-12T13:20:44.645Z info: Code: 400 | Message: Un des champs : Titre, Autheur ou Description est vide.
+2026-02-12T13:23:37.088Z info: Code: 200 | Message: Tout les articles ont été récupérés
+2026-02-12T13:35:23.557Z info: Code: 200 | Message: L'article a été récupéré avec succès
+2026-02-12T13:35:28.309Z info: Code: 721 | Message: L'article n'existe pas
+2026-02-12T13:35:33.231Z info: Code: 200 | Message: Tout les articles ont été récupérés
+2026-02-12T13:37:00.317Z info: Code: 200 | Message: L'article a été récupéré avec succès
+2026-02-12T14:06:30.532Z info: Code: 200 | Message: Article supprimé avec succès
+2026-02-12T14:06:48.560Z info: Code: 721 | Message: Impossible de supprimer un article inexistant
+2026-02-12T14:07:06.689Z info: Code: 200 | Message: Article supprimé avec succès
+2026-02-12T14:07:19.340Z info: Code: 200 | Message: Article supprimé avec succès
+2026-02-12T14:07:37.770Z info: Code: 200 | Message: Article supprimé avec succès
+2026-02-12T14:07:43.664Z info: Code: 721 | Message: Impossible de supprimer un article inexistant
+2026-02-12T14:07:58.449Z info: Code: 200 | Message: Article supprimé avec succès
+2026-02-12T14:08:04.186Z info: Code: 200 | Message: Article supprimé avec succès
+2026-02-12T14:08:10.584Z info: Code: 200 | Message: Article supprimé avec succès
+2026-02-12T14:08:30.402Z info: Code: 721 | Message: Impossible de supprimer un article inexistant
+2026-02-12T14:08:38.674Z info: Code: 200 | Message: Article supprimé avec succès
+2026-02-12T14:08:46.069Z info: Code: 200 | Message: Article supprimé avec succès
+2026-02-12T14:08:54.312Z info: Code: 200 | Message: Article supprimé avec succès
+2026-02-12T14:08:59.709Z info: Code: 200 | Message: Article supprimé avec succès
+2026-02-12T14:41:00.558Z info: Code: 200 | Message: Article sauvegardé avec succès
+2026-02-12T14:45:49.557Z info: Code: 200 | Message: Article sauvegardé avec succès
+2026-02-12T14:48:14.961Z info: Code: 200 | Message: Article sauvegardé avec succès
+2026-02-12T15:11:35.224Z info: Code: 201 | Message: Article créé avec succès
+2026-02-12T15:11:40.836Z info: Code: 201 | Message: Article créé avec succès
+2026-02-12T15:11:44.533Z info: Code: 201 | Message: Article créé avec succès
+2026-02-13T08:29:22.038Z info: Code: 200 | Message: Tout les articles ont été récupérés
+2026-02-13T08:30:06.209Z info: Code: 200 | Message: L'article a été récupéré avec succès
+2026-02-13T08:36:50.009Z info: Code: 721 | Message: Impossible de supprimer un article inexistant
+2026-02-13T08:37:36.547Z info: Code: 200 | Message: Article supprimé avec succès
+2026-02-13T08:39:26.437Z info: Code: 200 | Message: L'article a été récupéré avec succès
+2026-02-13T08:40:37.129Z info: Code: 200 | Message: Article sauvegardé avec succès
+2026-02-13T08:43:00.469Z info: Code: 201 | Message: Article créé avec succès
+2026-02-13T08:43:01.339Z info: Code: 201 | Message: Article créé avec succès
+2026-02-13T08:43:01.775Z info: Code: 201 | Message: Article créé avec succès
+2026-02-13T08:43:02.143Z info: Code: 201 | Message: Article créé avec succès
+2026-02-13T08:43:03.631Z info: Code: 201 | Message: Article créé avec succès
