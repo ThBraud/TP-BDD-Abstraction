@@ -48,7 +48,7 @@ Pour faire fonctionner le projet il y a deux méthodes :
 - Tester chaque adresse
 
 # Installation de Sonar en local  
-
+Cela correspond à cette partie du TP : [Partie 3](https://chocolaterie.github.io/documentation/docs/nodejs/tp-bdd-abstrait/tp-nodejs-bdd-abstrait-03)
 J'ai suivi ce [tutoriel](https://chocolaterie.github.io/documentation/docs/general/sonar/)
 - Dossier JDK
 
