@@ -11,12 +11,12 @@ router.post("/create-article", async (request, response) => {
 });
 
 //Supprimer un article via son uid
-router.delete("/delete-article/:uid", async (request, response) => {
+router.delete("/article/:uid", async (request, response) => {
     const serviceResponse = await ArticleService.deleteArticle(request.params.uid);
     return response.json(serviceResponse);
 });
 //Mettre à jour ou créer un article
-router.put("/update-article/:uid", async (request, response) => {
+router.put("/articles/save", async (request, response) => {
     const serviceReponse = await ArticleService.saveArticle(request.params.uid, request.body);
     return response.json(serviceReponse);
 })

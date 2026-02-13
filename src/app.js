@@ -13,6 +13,12 @@ if (process.env.BDD_MODE === "sequelize") {
 else if (process.env.BDD_MODE === "mongodb") {
     require("./dao/mongoose/connexion").connect_mongoose();
 }
+app.use(cors({
+    origin: 'http://localhost:4200',  // URL de votre Angular
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
 // Pour la lecture des JSON
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
