@@ -46,3 +46,19 @@ Pour faire fonctionner le projet il y a deux méthodes :
 - Lancer le front avec la commande ng serve
 - Aller sur localhost:4200
 - Tester chaque adresse
+
+# Installation de Sonar en local  
+
+J'ai suivi ce [tutoriel](https://chocolaterie.github.io/documentation/docs/general/sonar/)
+- Dossier JDK
+
+![img.png](Images/img.png)
+
+- Variable d'environnement et variables système  
+
+![img_1.png](Images/img_1.png)  
+![img_2.png](Images/img_2.png)  
+
+- Page du Sonar  
+
+![img_3.png](Images/img_3.png)
